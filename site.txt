@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nu-L Architecture – Vertical Field-Summation Logic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f6f6f8;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0 0 20px;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-row {
+      margin-top: 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      margin: 4px;
+      border-radius: 4px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      color: #111;
+      background: #fff;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nu-L Architecture</h1>
+    <p>
+      A vertical field-summation logic device that compresses multi-transistor logic
+      into a single, thin, stackable element built on flexible sheets.
+    </p>
+    <div class="btn-row">
+      <!-- Replace # with real links when ready -->
+      <a href="#" class="btn">Download Technical Brief (PDF)</a>
+      <a href="mailto:xdefli@yahoo.com" class="btn">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="what-is">
+      <h2>What is Nu-L?</h2>
+      <p>
+        Nu-L is a new kind of logic device. It is not a classic transistor. Instead,
+        it is a vertical field-summation element built on a thin substrate:
+      </p>
+      <ul>
+        <li>Multiple independent gate electrodes on one side</li>
+        <li>A continuous semiconductor channel on the other side</li>
+        <li>An ultrathin dielectric window between them</li>
+        <li>A vertical via carrying the output signal</li>
+      </ul>
+      <p>
+        Logic is performed by the weighted sum of electric fields from all gates,
+        rather than by connecting many transistors in series and parallel.
+      </p>
+    </section>
+
+    <section id="why-it-matters">
+      <h2>Why It Matters</h2>
+      <p><strong>Conventional CMOS logic:</strong></p>
+      <ul>
+        <li>Uses multiple transistors to implement each logic function</li>
+        <li>Requires advanced, expensive lithography and fabs</li>
+        <li>Is reaching practical and economic scaling limits</li>
+      </ul>
+      <p><strong>Nu-L approach:</strong></p>
+      <ul>
+        <li>Implements functions (XOR, NAND, majority) in a single vertical device</li>
+        <li>Works with thin-film, printed, and hybrid processes</li>
+        <li>Is designed for modular, stackable compute sheets</li>
+      </ul>
+    </section>
+
+    <section id="how-it-works">
+      <h2>How the Nu-L Device Works</h2>
+      <p>
+        Each gate input sets a voltage on one of the gate electrodes. These gates
+        generate electric fields that penetrate the ultrathin dielectric and act on
+        the semiconductor channel on the opposite side.
+      </p>
+      <p>
+        The channel “feels” the weighted sum of all gate fields. If the combined
+        field exceeds a threshold, the channel turns on and drives the vertical via.
+        A single Nu-L cell can therefore behave like:
+      </p>
+      <ul>
+        <li>XOR or XNOR</li>
+        <li>NAND or NOR</li>
+        <li>Majority or threshold logic</li>
+      </ul>
+    </section>
+
+    <section id="sheet-arch">
+      <h2>Sheet Architecture</h2>
+      <p>
+        Nu-L devices are integrated into thin sheets with three main zones:
+      </p>
+      <ul>
+        <li><strong>Sealed Nu-L core:</strong> arrays of Nu-L devices, no lateral routing.</li>
+        <li><strong>External logic zones:</strong> printed logic, memory, clock and IO circuitry.</li>
+        <li><strong>Docking edge:</strong> standardized connector to link sheets together.</li>
+      </ul>
+      <p>
+        Multiple sheets can be stacked, forming a modular three-dimensional compute
+        assembly naturally cooled by airflow between layers.
+      </p>
+    </section>
+
+    <section id="applications">
+      <h2>Applications</h2>
+      <ul>
+        <li>Modular compute sheets for data centers</li>
+        <li>Low-cost logic and AI accelerators for emerging economies</li>
+        <li>Educational and research platforms for novel computing</li>
+        <li>Hybrid systems combining Nu-L with CMOS or TFT electronics</li>
+      </ul>
+    </section>
+
+    <section id="collaboration">
+      <h2>Collaboration & Prototyping</h2>
+      <p>
+        A U.S. provisional patent has been filed for the Nu-L architecture. The next
+        step is to realize millimeter-scale prototypes using existing thin-film and
+        printed-electronics tools, in collaboration with university or industrial labs.
+      </p>
+      <p>
+        If your group works on thin-film transistors, printed electronics, neuromorphic
+        devices, or unconventional computing, and you are interested in exploring the
+        Nu-L concept, please get in touch.
+      </p>
+      <p>
+        <strong>Contact:</strong> <a href="mailto:xdefli@yahoo.com">xdefli@yahoo.com</a><br />
+        Rome, Italy
+      </p>
+    </section>
+
+    <section id="patent">
+      <h2>Patent Status</h2>
+      <p>
+        Nu-L architecture and device principles are the subject of a U.S. provisional
+        patent application filed by <strong>Rachid Defli</strong>. This website provides a general,
+        non-exhaustive description and does not limit the scope of any pending or future claims.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <!-- replace with year --> 2025 Rachid Defli – Nu-L Architecture
+  </footer>
+</body>
+</html>
